@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AJEXMC Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Rubik', sans-serif;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #f4faff;
+      color: #111;
+    }
+    header {
+      background: linear-gradient(to right, #c2efff, #e6f8ff);
+      padding: 1.5rem 2rem;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #009ddf;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 1.5rem;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 6px 18px rgba(0, 173, 255, 0.15);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+    }
+    .card h2 {
+      font-size: 1.5rem;
+      color: #007ebd;
+      margin-bottom: 1rem;
+    }
+    .button {
+      background: #00bfff;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 0.8rem;
+      border: none;
+      font-weight: 500;
+      cursor: pointer;
+      transition: 0.2s;
+      margin-left: 1rem;
+    }
+    .button:hover {
+      background: #0099cc;
+    }
+    .invite-box {
+      background: #f0fbff;
+      border: 1px dashed #99d6f0;
+      padding: 1.2rem;
+      border-radius: 0.8rem;
+      font-size: 0.95rem;
+      margin-top: 0.5rem;
+      word-break: break-word;
+    }
+    ul li {
+      margin-bottom: 0.8rem;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+      padding: 2rem 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>AJEXMC Hosting Dashboard</header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Welcome to Your Control Panel</h2>
+      <p>This is your dashboard to manage AJEXMC servers, track invites, and unlock upgrades.</p>
+    </div>
+
+    <div class="card">
+      <h2>Invite Friends & Earn Points</h2>
+      <p>Share the link below. Every verified join gives you points.</p>
+      <div class="invite-box">
+        https://discord.gg/ajexmc
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Upgrades & Rewards</h2>
+      <ul>
+        <li>+512MB RAM — 25 points <button class="button">Claim</button></li>
+        <li>+1 Player Slot — 10 points <button class="button">Claim</button></li>
+        <li>Plugin Installer Access — 30 points <button class="button">Claim</button></li>
+        <li>Priority Queue — 50 points <button class="button">Claim</button></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Server Status</h2>
+      <p>Real-time monitoring coming soon. Stay tuned!</p>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 AJEXMC — Your Ultimate Free Server Hosting Experience.
+  </footer>
+
+</body>
+</html>
